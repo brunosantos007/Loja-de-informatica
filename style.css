@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Italic'), url('Segoe UI Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold Italic'), url('Segoe UI Bold Italic.woff') format('woff');
+    } 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI Regular';
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+body{
+    background-color: #F1F1F1;
+}
+
+/* HEADER */
+.logo img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2A94CF;
+    color: white;
+}
+.navbar p{
+    display: inline-block;
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+}
+/* CONTEUDO */
+
+.conteudo{
+    display: flex;
+    border: 1px solid grey;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #2A94CF;
+   
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+}
+.conteudo h2{
+    margin-bottom: 30px;
+}
+.unidade-produtos{
+    background-color: white;
+    width: 200px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.unidade-produtos img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.unidade-produtos p,button{
+    margin-left: 5px;
+    padding: 10px;
+}
+.titulo{
+    text-align: center;
+    margin: 20px;
+}
+.botoes{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+}
+
+/* TELA LOGIN */
+
+.div-login{
+    width: 320px;
+    padding: 20px;
+    margin: auto ;
+    text-align: center;
+    margin-top: 90px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    box-shadow: 2px solid grey ;
+}
+.div-login input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    margin-bottom: 15px;
+}
+.div-login button{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.form button:nth-child(1){
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}
